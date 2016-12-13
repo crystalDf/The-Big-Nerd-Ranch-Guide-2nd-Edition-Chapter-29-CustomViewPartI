@@ -19,7 +19,7 @@ public class CounterView extends View {
     public CounterView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        mPaint = new Paint((Paint.ANTI_ALIAS_FLAG));
+        mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mRect = new Rect();
 
         setOnClickListener(new OnClickListener() {
